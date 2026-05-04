@@ -309,6 +309,25 @@ h3 {
   color: #f5dcaf;
 }
 
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  margin-top: 1.4rem;
+  padding-top: 0.9rem;
+  text-align: center;
+  font-size: 0.82rem;
+  color: #a0917e;
+}
+
+.footer-bottom a {
+  color: #e7d2ab;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
 .chat-toggle {
   position: fixed;
   right: 1rem;
