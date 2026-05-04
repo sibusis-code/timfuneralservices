@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tim Funeral Services | Dignified Care, 24/7 Support</title>
+  <meta name="description" content="Professional funeral services including burial, cremation, transport, and family support. Available 24/7 with compassionate, dignified care." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand" aria-label="Tim Funeral Services home">
+        <img src="images/logo.jpeg" alt="Tim Funeral Services logo" class="brand-logo" />
+        <span>Tim Funeral Services</span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#lead-form">Plan Ahead</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Compassionate care in every moment</p>
+        <h1>Dignified Funeral Services You Can Trust</h1>
+        <p>
+          We support families with respectful, professional funeral arrangements,
+          transportation, memorial planning, and guidance every step of the way.
+        </p>
+        <div class="hero-actions">
+          <a href="tel:+27000000000" class="btn btn-primary">Call 24/7</a>
+          <a href="#lead-form" class="btn btn-secondary">Request a Callback</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-bar">
+      <div class="container trust-grid">
+        <article>
+          <h3>24/7 Availability</h3>
+          <p>Immediate assistance whenever your family needs support.</p>
+        </article>
+        <article>
+          <h3>Professional Team</h3>
+          <p>Experienced staff with compassionate and respectful service.</p>
+        </article>
+        <article>
+          <h3>Clear Pricing</h3>
+          <p>Transparent guidance to help families plan with confidence.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Our services</p>
+          <h2>Complete Funeral & Memorial Support</h2>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Burial Services</h3>
+            <p>Traditional and custom burial arrangements managed with dignity and care.</p>
+          </article>
+          <article class="service-card">
+            <h3>Cremation Services</h3>
+            <p>Compassionate cremation options with memorial planning support.</p>
+          </article>
+          <article class="service-card">
+            <h3>Body Transport</h3>
+            <p>Local and long-distance transport coordinated professionally and respectfully.</p>
+          </article>
+          <article class="service-card">
+            <h3>Funeral Planning</h3>
+            <p>Guidance on venues, programs, notices, and religious/cultural preferences.</p>
+          </article>
+          <article class="service-card">
+            <h3>Family Support</h3>
+            <p>Warm, reliable support for families before, during, and after services.</p>
+          </article>
+          <article class="service-card">
+            <h3>Pre-Need Plans</h3>
+            <p>Plan ahead to protect loved ones and reduce stress during difficult times.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">About us</p>
+          <h2>Serving Families With Respect and Integrity</h2>
+          <p>
+            Tim Funeral Services is committed to honoring every life with professionalism,
+            sensitivity, and attention to detail. We work closely with families to provide
+            meaningful arrangements that respect cultural, spiritual, and personal wishes.
+          </p>
+          <ul class="tick-list">
+            <li>Professional mortuary and logistics coordination</li>
+            <li>Guidance with documentation and practical steps</li>
+            <li>Personalized service plans for every family</li>
+          </ul>
+        </div>
+        <div class="gallery" aria-label="Service photo gallery">
+          <img loading="lazy" src="images/services/WhatsApp Image 2026-05-04 at 1.26.30 PM.jpeg" alt="Funeral service arrangement" />
+          <img loading="lazy" src="images/services/WhatsApp Image 2026-05-04 at 1.26.31 PM.jpeg" alt="Professional funeral team setup" />
+          <img loading="lazy" src="images/services/WhatsApp Image 2026-05-04 at 1.26.32 PM.jpeg" alt="Memorial service details" />
+          <img loading="lazy" src="images/services/WhatsApp Image 2026-05-04 at 1.26.33 PM.jpeg" alt="Dignified hearse and support service" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="lead-form">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Lead capture</p>
+          <h2>Request Support or Plan Ahead</h2>
+          <p>Fill in your details and our team will contact you as soon as possible.</p>
+        </div>
+        <form id="funeralLeadForm" class="lead-form" novalidate>
+          <label>
+            Full name
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            Phone number
+            <input type="tel" name="phone" autocomplete="tel" required />
+          </label>
+          <label>
+            Email address
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+          <label>
+            Service needed
+            <select name="service" required>
+              <option value="">Select a service</option>
+              <option>Burial Service</option>
+              <option>Cremation Service</option>
+              <option>Transport</option>
+              <option>Funeral Planning</option>
+              <option>Pre-Need Plan</option>
+            </select>
+          </label>
+          <label class="full-width">
+            Message
+            <textarea name="message" rows="4" placeholder="Tell us how we can help"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Submit Request</button>
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div>
+        <h3>Tim Funeral Services</h3>
+        <p>Respectful support for families, 24 hours a day.</p>
+      </div>
+      <div>
+        <p><strong>Phone:</strong> <a href="tel:+27000000000">+27 00 000 0000</a></p>
+        <p><strong>Email:</strong> <a href="mailto:info@timfuneralservices.co.za">info@timfuneralservices.co.za</a></p>
+      </div>
+      <div>
+        <p><strong>Address:</strong> Your Office Address, City</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="chatToggle" class="chat-toggle" aria-label="Open FAQ assistant">Chat</button>
+
+  <section id="chatbot" class="chatbot" aria-live="polite" hidden>
+    <header class="chat-head">
+      <h3>Funeral Support Assistant</h3>
+      <button id="chatClose" aria-label="Close chat">x</button>
+    </header>
+    <div id="chatMessages" class="chat-messages"></div>
+    <form id="chatForm" class="chat-form">
+      <input id="chatInput" type="text" placeholder="Ask about services, costs, or support..." required />
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
